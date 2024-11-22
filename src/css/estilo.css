@@ -1,0 +1,15 @@
+body {
+    font-family: "Poppins", sans-serif;
+    /* background-image: url("../imagens/background.png"); */
+    background-color: aqua;
+    /* background-size: cover; */
+}
+
+.cartao-pokedev {
+    display: none;
+    background-color: green;
+}
+
+.cartao-pokedev.aberto {
+    display: block;
+}
