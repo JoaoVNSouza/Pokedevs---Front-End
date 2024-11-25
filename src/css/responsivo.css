@@ -17,4 +17,24 @@
     .cartao-pokedev .cartao-informacoes h3 {
         font-size: 16px;
     }
+
+    .listagem {
+        max-width: 360px;
+    }
+
+    .listagem .pokedev {
+        width: 45%;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        margin-bottom: 0;
+        border-radius: 8px;
+    }
+
+    .listagem ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
 }
