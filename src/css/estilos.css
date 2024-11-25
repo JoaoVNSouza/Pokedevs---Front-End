@@ -34,7 +34,8 @@ main {
     align-items: center;
 }
 
-.pokedevs {    display: flex;
+.pokedevs {    
+    display: flex;
     gap: 30px;
     padding: 30px 0;
 }
@@ -43,6 +44,7 @@ main {
     display: none;
     max-width: 360px;
     border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .cartao-pokedev .cartao-topo {
@@ -126,8 +128,34 @@ main {
 }
 
 .listagem {
-    background-color: #FFFF00;
     max-width: 200px;
+}
+
+.listagem .pokedev {
+    background-color: #6b727a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    transition: 0.15 ease-in-out;
+}
+
+.listagem .pokedev:hover {
+    scale: 1.1;
+}
+
+.listagem .pokedev span {
+    padding-right: 20px;
+}
+
+.listagem .pokedev.ativo {
+    background-color: #fa6668;
 }
 
 .listagem .pokedev img {
