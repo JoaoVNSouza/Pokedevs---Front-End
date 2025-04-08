@@ -27,3 +27,6 @@ Ao clicar em um item da lista, o cartão com as informações do desenvolvedor �
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/pokedev.git
+
+
+![Preview da PokéDev](./Pokedev_imagem.png)
