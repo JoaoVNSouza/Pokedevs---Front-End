@@ -22,11 +22,6 @@ Ao clicar em um item da lista, o cartão com as informações do desenvolvedor �
 - Destaque visual do item ativo.
 - Layout responsivo para celulares e tablets.
 
-## Como Rodar
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/pokedev.git
-
-
-![Preview da PokéDev](./Pokedev_imagem.png)
+## Ilustração
+![PokéDev](./Pokedev_imagem.png)
