@@ -24,4 +24,4 @@ Ao clicar em um item da lista, o cartão com as informações do desenvolvedor �
 
 
 ## Ilustração
-![PokéDev](./Pokedev_imagem.png)
+![PokéDev](./PokeDev_imagem.png)
